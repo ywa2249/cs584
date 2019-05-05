@@ -68,4 +68,4 @@ if __name__ ==  "__main__":
     # tmp = ' '.join(word for word in word_list)
     # query_result = query_answer(dir_name,tmp)
     # print(query_result)
-    print 'enter relative_search'
+    print ('enter relative_search')

@@ -41,5 +41,5 @@ def relative_and_label_sum(relative_df,label_df,alpha,top_n):
 #         sum_df=relati
 
 if __name__ == '__main__':
-    print sys.path
-    print "call score sum"
+    print (sys.path)
+    print ("call score sum")

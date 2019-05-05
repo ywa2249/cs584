@@ -59,9 +59,9 @@ def check_professor_past_answer(pid):
     print df.loc[df['answers_author_id'] == pid]
 
 if __name__ == '__main__':
-    print "call careerHelper"
+    print ("call careerHelper")
     query = 'How to apply an job in hospital or medical field? I am a biology master in Emory university'
     proList= find_career_helper(query)
-    print proList
+    print (proList)
 
     #check_professor_past_answer(proList[2])
